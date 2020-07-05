@@ -1,0 +1,16 @@
+Django==3.0.8
+google-api-python-client==1.9.3
+jsonfield==3.1.0
+simplejson==3.17.0
+djangorestframework==3.11.0
+pytz==2020.1
+six==1.12
+uWSGI==2.0.19.1
+pyparsing==2.4.7
+packaging==20.4
+appdirs==1.4.4
+python-dotenv==0.14.0
+mysqlclient==1.4.6
+django-mysql==3.7.1
+django_cron==0.5.1
+django_filter==2.0.0
