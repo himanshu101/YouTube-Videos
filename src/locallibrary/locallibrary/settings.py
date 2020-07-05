@@ -25,12 +25,12 @@ load_dotenv(DOT_ENV_PATH)
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ['FAMPAY_SECRET_KEY']
+SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ['FAMPAY_DEBUG']
+DEBUG = os.environ['DEBUG']
 
-ALLOWED_HOSTS = os.environ['FAMPAY_ALLOWED_HOSTS'].split(',')
+ALLOWED_HOSTS = os.environ['ALLOWED_HOSTS'].split(',')
 
 
 # Application definition
@@ -89,11 +89,11 @@ WSGI_APPLICATION = 'locallibrary.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': os.environ['FAMPAY_DB'],
-        'USER': os.environ['FAMPAY_DB_USERNAME'],
-        'PASSWORD': os.environ['FAMPAY_DB_PASSWORD'],
-        'HOST': os.environ['FAMPAY_DB_HOST'],
-        'PORT': os.environ['FAMPAY_DB_PORT']
+        'NAME': os.environ['DB'],
+        'USER': os.environ['DB_USERNAME'],
+        'PASSWORD': os.environ['DB_PASSWORD'],
+        'HOST': os.environ['DB_HOST'],
+        'PORT': os.environ['DB_PORT']
     }
 }
 

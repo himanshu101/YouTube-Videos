@@ -78,6 +78,6 @@
   
     2. Add path of Django project. Adding example.
     ```bash
-        */1 * * * * cd /Users/himanshugarg/IdeaProjects/fampayassignment && source /Users/himanshugarg/IdeaProjects/fampayassignment/venv/bin/activate && /Users/himanshugarg/IdeaProjects/fampayassignment/venv/bin/python /Users/himanshugarg/IdeaProjects/fampayassignment/src/locallibrary/manage.py runcrons > /tmp/cronjob.log 2>&1
+        */1 * * * * cd /Users/himanshugarg/IdeaProjects/YouTube-Videos && source /Users/himanshugarg/IdeaProjects/YouTube-Videos/venv/bin/activate && /Users/himanshugarg/IdeaProjects/YouTube-Videos/venv/bin/python /Users/himanshugarg/IdeaProjects/YouTube-Videos/src/locallibrary/manage.py runcrons > /tmp/cronjob.log 2>&1
     ```
   

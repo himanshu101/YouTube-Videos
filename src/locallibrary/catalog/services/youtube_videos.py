@@ -15,14 +15,14 @@ class YoutubeVideoSearch:
         Initalizes a youtube search object
     """
     def __init__(self):
-        self.DEVELOPER_KEYS = os.environ.get('FAMPAY_DEVELOPER_KEYS').split(',')
+        self.DEVELOPER_KEYS = os.environ.get('DEVELOPER_KEYS').split(',')
         self.DEVELOPER_KEY = self.DEVELOPER_KEYS[0]
         self.YOUTUBE_API_VERSION = 'v3'
         self.YOUTUBE_API_SERVICE_NAME = 'youtube'
         self.SEARCH_TERM = 'cricket'
         self.SEARCH_TYPE = 'video'
         self.MAX_RESULTS = 50
-        self.MAX_RETRIES = int(os.environ.get('FAMPAY_SEARCH_MAX_RETRIES'))
+        self.MAX_RETRIES = int(os.environ.get('SEARCH_MAX_RETRIES'))
 
     """
         Calls Youtube Search API and stores data in DB. Support for Multiple API Keys to handle quota exceeded.
