@@ -69,6 +69,11 @@
     ```
         http://localhost:8000/api/v1/videos
     ```
+  
+    #### To Search, use following API:
+    ```
+        http://localhost:8000/api/v1/videos?q=kohli
+    ```
 
 * #### Add Crons
     1. Adding example to add cron by running following command in terminal:
