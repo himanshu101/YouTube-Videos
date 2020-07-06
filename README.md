@@ -17,7 +17,7 @@
     ```
 * Then, Git clone this repo to your PC
     ```bash
-        $ git clone https://github.com/SigtupleTechnologies/lis.git
+        $ git clone https://github.com/himanshu101/YouTube-Videos.git
     ```
 
 * #### Dependencies
