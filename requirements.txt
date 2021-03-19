@@ -2,7 +2,7 @@ Django==3.0.8
 google-api-python-client==1.9.3
 jsonfield==3.1.0
 simplejson==3.17.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 pytz==2020.1
 six==1.12
 uWSGI==2.0.19.1
